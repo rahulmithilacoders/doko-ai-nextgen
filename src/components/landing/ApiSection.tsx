@@ -38,7 +38,7 @@ export function ApiSection() {
 
   return (
     <Section id="api">
-      <div className="grid gap-14 lg:grid-cols-[1fr_0.85fr] lg:items-start">
+      <div className="grid gap-14 lg:grid-cols-[1fr_0.85fr] lg:items-center">
         <div>
           <Reveal>
             <div className="surface overflow-hidden">

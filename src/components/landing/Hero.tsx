@@ -66,7 +66,7 @@ function ChatMock() {
         <span className="size-2 rounded-full bg-success" />
       </div>
 
-      <div className="flex min-h-[19rem] flex-col justify-end gap-2.5 p-4">
+      <div className="flex min-h-[17rem] flex-col justify-end gap-2.5 p-4">
         {visible.map((m, i) => {
           const isLast = i === step;
           const text = isLast ? m.text.slice(0, chars) : m.text;
@@ -146,7 +146,7 @@ export function Hero() {
             </Reveal>
 
             <Reveal delay={300}>
-              <dl className="mt-12 grid max-w-lg grid-cols-3 divide-x divide-border border-y border-border">
+              <dl className="mt-12 grid max-w-xl grid-cols-3 divide-x divide-border border-y border-border">
                 {STATS.map((s) => (
                   <div key={s.label} className="px-4 py-4 first:pl-0">
                     <dt className="font-display text-2xl font-semibold">{s.value}</dt>
